@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018B11EA25929F1C00C648A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B11E925929F1C00C648A2 /* AppDelegate.swift */; };
+		018B11EC25929F1C00C648A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B11EB25929F1C00C648A2 /* ContentView.swift */; };
+		018B11EE25929F1D00C648A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018B11ED25929F1D00C648A2 /* Assets.xcassets */; };
+		018B11F125929F1D00C648A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018B11F025929F1D00C648A2 /* Preview Assets.xcassets */; };
+		018B11F425929F1D00C648A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B11F225929F1D00C648A2 /* Main.storyboard */; };
+		018B120025929F1E00C648A2 /* SwiftUIDynamicCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B11FF25929F1E00C648A2 /* SwiftUIDynamicCalendarTests.swift */; };
+		018B120B25929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B120A25929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.swift */; };
+		018B121C25929F3800C648A2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B121B25929F3800C648A2 /* CalendarView.swift */; };
+		018B122125929F7200C648A2 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B122025929F7200C648A2 /* Calendar+Extension.swift */; };
+		018B122625929FED00C648A2 /* CreteAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B122525929FED00C648A2 /* CreteAppointmentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018B11FC25929F1D00C648A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018B11DE25929F1C00C648A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018B11E525929F1C00C648A2;
+			remoteInfo = SwiftUIDynamicCalendar;
+		};
+		018B120725929F1E00C648A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018B11DE25929F1C00C648A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018B11E525929F1C00C648A2;
+			remoteInfo = SwiftUIDynamicCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018B11E625929F1C00C648A2 /* SwiftUIDynamicCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDynamicCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B11E925929F1C00C648A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		018B11EB25929F1C00C648A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		018B11ED25929F1D00C648A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018B11F025929F1D00C648A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		018B11F325929F1D00C648A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		018B11F525929F1D00C648A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018B11F625929F1D00C648A2 /* SwiftUIDynamicCalendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDynamicCalendar.entitlements; sourceTree = "<group>"; };
+		018B11FB25929F1D00C648A2 /* SwiftUIDynamicCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDynamicCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B11FF25929F1E00C648A2 /* SwiftUIDynamicCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDynamicCalendarTests.swift; sourceTree = "<group>"; };
+		018B120125929F1E00C648A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018B120625929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDynamicCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018B120A25929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDynamicCalendarUITests.swift; sourceTree = "<group>"; };
+		018B120C25929F1E00C648A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018B121B25929F3800C648A2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		018B122025929F7200C648A2 /* Calendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
+		018B122525929FED00C648A2 /* CreteAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreteAppointmentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018B11E325929F1C00C648A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B11F825929F1D00C648A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B120325929F1E00C648A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018B11DD25929F1C00C648A2 = {
+			isa = PBXGroup;
+			children = (
+				018B11E825929F1C00C648A2 /* SwiftUIDynamicCalendar */,
+				018B11FE25929F1E00C648A2 /* SwiftUIDynamicCalendarTests */,
+				018B120925929F1E00C648A2 /* SwiftUIDynamicCalendarUITests */,
+				018B11E725929F1C00C648A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018B11E725929F1C00C648A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018B11E625929F1C00C648A2 /* SwiftUIDynamicCalendar.app */,
+				018B11FB25929F1D00C648A2 /* SwiftUIDynamicCalendarTests.xctest */,
+				018B120625929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018B11E825929F1C00C648A2 /* SwiftUIDynamicCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				018B122525929FED00C648A2 /* CreteAppointmentView.swift */,
+				018B11E925929F1C00C648A2 /* AppDelegate.swift */,
+				018B11EB25929F1C00C648A2 /* ContentView.swift */,
+				018B121B25929F3800C648A2 /* CalendarView.swift */,
+				018B122025929F7200C648A2 /* Calendar+Extension.swift */,
+				018B11ED25929F1D00C648A2 /* Assets.xcassets */,
+				018B11F225929F1D00C648A2 /* Main.storyboard */,
+				018B11F525929F1D00C648A2 /* Info.plist */,
+				018B11F625929F1D00C648A2 /* SwiftUIDynamicCalendar.entitlements */,
+				018B11EF25929F1D00C648A2 /* Preview Content */,
+			);
+			path = SwiftUIDynamicCalendar;
+			sourceTree = "<group>";
+		};
+		018B11EF25929F1D00C648A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				018B11F025929F1D00C648A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		018B11FE25929F1E00C648A2 /* SwiftUIDynamicCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				018B11FF25929F1E00C648A2 /* SwiftUIDynamicCalendarTests.swift */,
+				018B120125929F1E00C648A2 /* Info.plist */,
+			);
+			path = SwiftUIDynamicCalendarTests;
+			sourceTree = "<group>";
+		};
+		018B120925929F1E00C648A2 /* SwiftUIDynamicCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				018B120A25929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.swift */,
+				018B120C25929F1E00C648A2 /* Info.plist */,
+			);
+			path = SwiftUIDynamicCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018B11E525929F1C00C648A2 /* SwiftUIDynamicCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018B120F25929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendar" */;
+			buildPhases = (
+				018B11E225929F1C00C648A2 /* Sources */,
+				018B11E325929F1C00C648A2 /* Frameworks */,
+				018B11E425929F1C00C648A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIDynamicCalendar;
+			productName = SwiftUIDynamicCalendar;
+			productReference = 018B11E625929F1C00C648A2 /* SwiftUIDynamicCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018B11FA25929F1D00C648A2 /* SwiftUIDynamicCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018B121225929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendarTests" */;
+			buildPhases = (
+				018B11F725929F1D00C648A2 /* Sources */,
+				018B11F825929F1D00C648A2 /* Frameworks */,
+				018B11F925929F1D00C648A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018B11FD25929F1D00C648A2 /* PBXTargetDependency */,
+			);
+			name = SwiftUIDynamicCalendarTests;
+			productName = SwiftUIDynamicCalendarTests;
+			productReference = 018B11FB25929F1D00C648A2 /* SwiftUIDynamicCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		018B120525929F1E00C648A2 /* SwiftUIDynamicCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018B121525929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendarUITests" */;
+			buildPhases = (
+				018B120225929F1E00C648A2 /* Sources */,
+				018B120325929F1E00C648A2 /* Frameworks */,
+				018B120425929F1E00C648A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018B120825929F1E00C648A2 /* PBXTargetDependency */,
+			);
+			name = SwiftUIDynamicCalendarUITests;
+			productName = SwiftUIDynamicCalendarUITests;
+			productReference = 018B120625929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018B11DE25929F1C00C648A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					018B11E525929F1C00C648A2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					018B11FA25929F1D00C648A2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 018B11E525929F1C00C648A2;
+					};
+					018B120525929F1E00C648A2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 018B11E525929F1C00C648A2;
+					};
+				};
+			};
+			buildConfigurationList = 018B11E125929F1C00C648A2 /* Build configuration list for PBXProject "SwiftUIDynamicCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018B11DD25929F1C00C648A2;
+			productRefGroup = 018B11E725929F1C00C648A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018B11E525929F1C00C648A2 /* SwiftUIDynamicCalendar */,
+				018B11FA25929F1D00C648A2 /* SwiftUIDynamicCalendarTests */,
+				018B120525929F1E00C648A2 /* SwiftUIDynamicCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018B11E425929F1C00C648A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B11F425929F1D00C648A2 /* Main.storyboard in Resources */,
+				018B11F125929F1D00C648A2 /* Preview Assets.xcassets in Resources */,
+				018B11EE25929F1D00C648A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B11F925929F1D00C648A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B120425929F1E00C648A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018B11E225929F1C00C648A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B122625929FED00C648A2 /* CreteAppointmentView.swift in Sources */,
+				018B11EC25929F1C00C648A2 /* ContentView.swift in Sources */,
+				018B122125929F7200C648A2 /* Calendar+Extension.swift in Sources */,
+				018B11EA25929F1C00C648A2 /* AppDelegate.swift in Sources */,
+				018B121C25929F3800C648A2 /* CalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B11F725929F1D00C648A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B120025929F1E00C648A2 /* SwiftUIDynamicCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018B120225929F1E00C648A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018B120B25929F1E00C648A2 /* SwiftUIDynamicCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018B11FD25929F1D00C648A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018B11E525929F1C00C648A2 /* SwiftUIDynamicCalendar */;
+			targetProxy = 018B11FC25929F1D00C648A2 /* PBXContainerItemProxy */;
+		};
+		018B120825929F1E00C648A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018B11E525929F1C00C648A2 /* SwiftUIDynamicCalendar */;
+			targetProxy = 018B120725929F1E00C648A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018B11F225929F1D00C648A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018B11F325929F1D00C648A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018B120D25929F1E00C648A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		018B120E25929F1E00C648A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		018B121025929F1E00C648A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDynamicCalendar/SwiftUIDynamicCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDynamicCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIDynamicCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		018B121125929F1E00C648A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDynamicCalendar/SwiftUIDynamicCalendar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDynamicCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIDynamicCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		018B121325929F1E00C648A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				INFOPLIST_FILE = SwiftUIDynamicCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIDynamicCalendar.app/Contents/MacOS/SwiftUIDynamicCalendar";
+			};
+			name = Debug;
+		};
+		018B121425929F1E00C648A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				INFOPLIST_FILE = SwiftUIDynamicCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIDynamicCalendar.app/Contents/MacOS/SwiftUIDynamicCalendar";
+			};
+			name = Release;
+		};
+		018B121625929F1E00C648A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				INFOPLIST_FILE = SwiftUIDynamicCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUIDynamicCalendar;
+			};
+			name = Debug;
+		};
+		018B121725929F1E00C648A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T9D4Z5L592;
+				INFOPLIST_FILE = SwiftUIDynamicCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlignApp.SwiftUIDynamicCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftUIDynamicCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018B11E125929F1C00C648A2 /* Build configuration list for PBXProject "SwiftUIDynamicCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B120D25929F1E00C648A2 /* Debug */,
+				018B120E25929F1E00C648A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018B120F25929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B121025929F1E00C648A2 /* Debug */,
+				018B121125929F1E00C648A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018B121225929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B121325929F1E00C648A2 /* Debug */,
+				018B121425929F1E00C648A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018B121525929F1E00C648A2 /* Build configuration list for PBXNativeTarget "SwiftUIDynamicCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018B121625929F1E00C648A2 /* Debug */,
+				018B121725929F1E00C648A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018B11DE25929F1C00C648A2 /* Project object */;
+}
